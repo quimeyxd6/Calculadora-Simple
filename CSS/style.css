@@ -1,0 +1,93 @@
+:root {
+    --white: #fff;
+    --darker: #1d1d1d;
+    --darkest: #181818;
+    --grey: #4e4e4e;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#appCalculator {
+    height: 500px;
+    width: 300px;
+    border: 1px var(--darkest);
+    margin: 20px auto;
+}
+
+#appCalculator form {
+    height: 100%;
+    width: 100%;
+    background-color: var(--darkest);
+}
+
+.result {
+    width: 95%;
+    margin: auto;
+}
+
+input[type=textfield] {
+    width: 100%;
+    background-color: #bbb;
+    color: var(--darkest);
+    font-size: 50px;
+    padding: 0;
+    margin-top: 7.5px;
+    margin-bottom: 7.5px;
+    border: 0;
+    text-align: right;
+    outline: none;
+}
+
+.btn-reset {
+    width: 95%;
+    margin: auto;
+}
+
+input[type=reset] {
+    width: 95%;
+    font-weight: bold;
+    font-size: 26px;
+    color: var(--white);
+    background-color: var(--grey);
+    padding: 12px;
+    margin: 7.5px;
+    border: 0;
+}
+
+input[type=reset]:hover {
+    opacity: 0.8;
+}
+
+input[type=reset]:active {
+    opacity: 0.6;
+}
+
+.controlls {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 7.5px;
+}
+
+input[type=button] {
+    width: 22%;
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--white);
+    background-color: var(--grey);
+    padding: 24px;
+    margin: 3px;
+    border: 0;
+}
+
+input[type=button]:hover {
+    opacity: 0.8;
+}
+input[type=button]:active {
+    opacity: 0.6;
+}
